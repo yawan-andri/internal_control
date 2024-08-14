@@ -153,6 +153,9 @@
         var editId = $("#editId").val();
         var kategorisop = $('#kategorisop').val();
 
+        $("#duplicateNoSOP").hide();
+        $("#duplicateNamaSOP").hide();
+        
         if (nosop == ""){
             alert("No SOP kosong!");
             $("#nosop").focus();
